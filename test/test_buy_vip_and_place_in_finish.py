@@ -1,5 +1,5 @@
 import pytest
-from application import Application
+from fixture.application import Application
 
 
 @pytest.fixture()
@@ -8,8 +8,7 @@ def app(request):
     request.addfinalizer(fixture.destroy)  # Указали то, как фикстура должна быть разрушена
     return fixture
 
-
-def test_standard_and_start(app):
+def test_vip_and_finish(app):
     app.login()
     app.buy_vip()
     app.place_in_finish()
