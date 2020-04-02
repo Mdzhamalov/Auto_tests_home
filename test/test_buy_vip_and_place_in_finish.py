@@ -10,10 +10,10 @@ def app(request):
 
 
 def test_vip_and_finish(app):
-    app.open_page_contracts()
+    app.page.open_contracts()
     app.session.login()
-    app.buy_vip()
-    app.place_in_finish()
+    app.contract.buy_vip()
+    app.table.place_in_finish()
     app.session.logout()
 
 
