@@ -38,6 +38,12 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MD\PycharmProjects\Auto_tests\test" />
+      <recent name="C:\Users\MD\PycharmProjects\Auto_tests\fixture" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.test_new_user_with_money">
     <configuration name="test_new_user_with_money" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_tests" />

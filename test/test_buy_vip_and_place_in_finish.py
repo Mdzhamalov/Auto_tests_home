@@ -8,11 +8,13 @@ def app(request):
     request.addfinalizer(fixture.destroy)  # Указали то, как фикстура должна быть разрушена
     return fixture
 
+
 def test_vip_and_finish(app):
-    app.login()
+    app.open_page_contracts()
+    app.session.login()
     app.buy_vip()
     app.place_in_finish()
-    app.logout()
+    app.session.logout()
 
 
 
