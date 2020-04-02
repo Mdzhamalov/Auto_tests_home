@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import Select
 
 
 class Application:
-    rlogin = "test_0.9"
+    rlogin = "test_0.100"
     remail = "test@ssss.ru"
     rpassword = "Asdf1234%"
     rrepeat = "Asdf1234%"
@@ -12,6 +12,8 @@ class Application:
     value = "9000000"
     admin_login = "Adminadmin"
     admin_password = "5GxS4PA76vBdL4cE"
+    user_login = "test_0.88"
+    password = "Asdf1234%"
 
     def __init__(self):
         self.driver = webdriver.Chrome()
@@ -43,6 +45,7 @@ class Application:
         self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div[2]/div/ul/div[3]/div/div[2]/div[3]/button[2]').click()
 
     def logout(self):
+        time.sleep(3)
         self.driver.implicitly_wait(2)
         self.driver.find_element_by_class_name('pointer').click()
 
@@ -67,3 +70,22 @@ class Application:
 
     def destroy(self):
         self.driver.quit()
+
+    def login(self):
+        self.driver.get("https://4dev.at-profit.com/profile/contracts")
+        self.driver.implicitly_wait(15)
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/div/form/input[1]').send_keys(self.user_login)
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/div/form/input[2]').send_keys(self.password)
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/div/form/button').click()
+
+    def buy_vip(self):
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div[4]/div[2]/button').click()
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[1]/div/div/div[2]/a').click()
+
+    def place_in_finish(self):
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div[1]/ul/li[2]/ul/a[2]').click()
+        self.driver.implicitly_wait(5)
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div/ul[1]/li[1]/div/div/div[1]/button').click()
+        self.driver.implicitly_wait(5)
+        self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/a').click()
+
