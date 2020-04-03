@@ -4,7 +4,7 @@ import time
 class SessionHelper:
     admin_login = "Adminadmin"
     admin_password = "5GxS4PA76vBdL4cE"
-    user_login = "test_0.8"
+    user_login = "test_1.8"
     password = "Asdf1234%"
 
     def __init__(self, app):

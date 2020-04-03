@@ -1,12 +1,3 @@
-from fixture.application import Application
-import pytest
-
-
-@pytest.fixture()
-def app(request):
-    fixture = Application()  # Initialization. Создание фикстуры
-    request.addfinalizer(fixture.destroy)  # Указали то, как фикстура должна быть разрушена
-    return fixture
 
 
 def test_create_new_user(app):  # В качастве параметра принимает фикстуру app

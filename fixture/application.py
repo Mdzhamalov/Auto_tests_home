@@ -8,17 +8,18 @@ from fixture.page import PageHelper
 
 
 class Application:
-    rlogin = "test_0.104"
+    rlogin = "test_1.8"
     remail = "test@ssss.ru"
     rpassword = "Asdf1234%"
     rrepeat = "Asdf1234%"
-    parent = "test_0"
+    parent = "test_1"
     value = "9000000"
 
     def __init__(self):
         self.driver = webdriver.Chrome()  # Инициализация драйвера
         self.driver.maximize_window()
-        self.session = SessionHelper(self)  # Инициализация помошников
+        # Инициализация помошников
+        self.session = SessionHelper(self)
         self.contract = ContractHelper(self)
         self.table = TableHelper(self)
         self.page = PageHelper(self)
