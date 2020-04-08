@@ -1,28 +1,28 @@
 
 
-def test_a_buy_preliminary_contract(app):
+def test_a_preliminary(app):
     app.page.open_contracts()
-    app.session.login()
+    app.session.login(user_login="test_1.19", password="Asdf1234%")
     app.contract.buy_preliminary()
     app.session.logout()
 
 
-def test_b_buy_standard_contract(app):
+def test_b_standard(app):
     app.page.open_contracts()
-    app.session.login()
+    app.session.login(user_login="test_1.19", password="Asdf1234%")
     app.contract.buy_standard()
     app.session.logout()
 
 
-def test_c_buy_premium_contract(app):
+def test_c_premium(app):
     app.page.open_contracts()
-    app.session.login()
-    app.contract.buy_premium()
+    app.session.login(user_login="test_1.19", password="Asdf1234%")
+    app.contract.buy_preumium()
     app.session.logout()
 
 
-def test_d_buy_vip_contract(app):
+def test_d_vip(app):
     app.page.open_contracts()
-    app.session.login()
+    app.session.login(user_login="test_1.19", password="Asdf1234%")
     app.contract.buy_premium()
     app.session.logout()

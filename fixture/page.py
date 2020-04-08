@@ -8,6 +8,9 @@ class PageHelper:
     def open_sign_up(self):
         self.app.driver.get("https://4dev.at-profit.com/signup")
 
+    def open_sign_in(self):
+        self.app.driver.get("https://4dev.at-profit.com/signin")
+
     def open_deposit(self):
         self.app.driver.get("https://4dev.backend.at-profit.com/admin/bank/depositinvoice/")
 
