@@ -16,3 +16,9 @@ class PageHelper:
 
     def open_contracts(self):
         self.app.driver.get("https://4dev.at-profit.com/profile/contracts")
+
+    def open_credit_card_generator(self):
+        self.app.driver.get("https://www.prepostseo.com/tool/ru/credit-card-generator")
+
+    def open_balance(self):
+        self.app.driver.get("https://4dev.at-profit.com/profile/balance")

@@ -26,7 +26,7 @@ class SessionHelper:
         self.app.driver.find_element_by_class_name('pointer').click()
 
     def login_to_backend(self, admin_login, admin_password):
-        self.app.driver.implicitly_wait(5)
+        self.app.driver.implicitly_wait(10)
         self.app.driver.find_element_by_name("username").send_keys(admin_login)
         self.app.driver.find_element_by_name("password").send_keys(admin_password)
         self.app.driver.find_element_by_xpath('//*[@id="login-form"]/div[3]/input').click()
