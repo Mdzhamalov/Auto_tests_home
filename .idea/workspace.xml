@@ -45,7 +45,28 @@
       <recent name="C:\Users\MD\PycharmProjects\Auto_tests\fixture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_new_user_with_money">
+  <component name="RunManager" selected="Python.quadratic">
+    <configuration name="quadratic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Auto_tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/quadratic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_new_user_with_money" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,6 +88,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in C:/Users/MD/PycharmProjects/Auto_tests/test/test_registration.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Auto_tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_registration.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in C:/Users/MD/PycharmProjects/Auto_tests/test/test_replenishment.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Auto_tests" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_replenishment.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_acceptDocs.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Auto_tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,55 +130,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_add_credit_card.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Auto_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_credit_card.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_registration.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Auto_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_registration.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_replenishment.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Auto_tests" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_replenishment.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quadratic" />
         <item itemvalue="Python.test_new_user_with_money" />
-        <item itemvalue="Python tests.Unittests in test_replenishment.py" />
-        <item itemvalue="Python tests.Unittests in test_registration.py" />
+        <item itemvalue="Python tests.Unittests in C:/Users/MD/PycharmProjects/Auto_tests/test/test_replenishment.py" />
+        <item itemvalue="Python tests.Unittests in C:/Users/MD/PycharmProjects/Auto_tests/test/test_registration.py" />
         <item itemvalue="Python tests.Unittests in test_acceptDocs.py" />
-        <item itemvalue="Python tests.Unittests in test_add_credit_card.py" />
       </list>
     </recent_temporary>
   </component>
@@ -185,28 +192,28 @@
     </state>
     <state x="526" y="201" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1585832279195" />
     <state x="739" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584349337744" />
-    <state width="1344" height="135" key="GridCell.Tab.0.bottom" timestamp="1585558148422">
+    <state width="1344" height="135" key="GridCell.Tab.0.bottom" timestamp="1587576673012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1585558148422" />
+    <state width="1344" height="135" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1587576673012" />
     <state width="1344" height="93" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585252263945" />
     <state width="1637" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584350098728" />
-    <state width="1344" height="135" key="GridCell.Tab.0.center" timestamp="1585558148422">
+    <state width="1344" height="135" key="GridCell.Tab.0.center" timestamp="1587576673012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="135" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1585558148422" />
+    <state width="1344" height="135" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1587576673012" />
     <state width="1344" height="93" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585252263945" />
     <state width="1637" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584350098728" />
-    <state width="1344" height="135" key="GridCell.Tab.0.left" timestamp="1585558148421">
+    <state width="1344" height="135" key="GridCell.Tab.0.left" timestamp="1587576673012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="135" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1585558148421" />
+    <state width="1344" height="135" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1587576673012" />
     <state width="1344" height="93" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585252263945" />
     <state width="1637" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584350098727" />
-    <state width="1344" height="135" key="GridCell.Tab.0.right" timestamp="1585558148422">
+    <state width="1344" height="135" key="GridCell.Tab.0.right" timestamp="1587576673012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="135" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1585558148422" />
+    <state width="1344" height="135" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1587576673012" />
     <state width="1344" height="93" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585252263945" />
     <state width="1637" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584350098728" />
     <state width="1639" height="318" key="GridCell.Tab.1.bottom" timestamp="1582642253129">
@@ -230,11 +237,16 @@
     </state>
     <state x="345" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1585832287455" />
     <state x="485" y="149" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584349627430" />
-    <state x="466" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1585915382180">
+    <state x="466" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1588324364824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="466" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1585915382180" />
+    <state x="466" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1588009658519" />
+    <state x="466" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588324364824" />
     <state x="655" y="356" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584349271217" />
+    <state x="424" y="6" key="refactoring.ChangeSignatureDialog" timestamp="1588335390879">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="424" y="6" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1680.1050@0.0.1366.728" timestamp="1588335390879" />
     <state x="856" y="199" width="672" height="678" key="search.everywhere.popup" timestamp="1583933668465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

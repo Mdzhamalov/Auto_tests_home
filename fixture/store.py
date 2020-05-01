@@ -6,9 +6,12 @@ class StoreHelper:
     def __init__(self, app):
         self.app = app
 
+    def go_to_catalog(self):
+        time.sleep(1)
+        self.app.driver.find_element_by_xpath('//*[@id="app"]/header/div/div/div/div[1]/nav/ul/li[3]').click()
+
     def navigate_to_basket(self):
-        self.app.driver.find_element_by_xpath('//*[@id="app"]/header/div/div/div/div[2]/div[1]/div/span').click()
-        self.app.driver.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/button').click()
+        self.app.driver.find_element_by_xpath('//*[@id="app"]/header/div/div/div/div[2]/div[1]/div/span[1]').click()
 
     def add_1g_to_basket(self):
         self.app.driver.implicitly_wait(5)

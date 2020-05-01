@@ -22,3 +22,6 @@ class PageHelper:
 
     def open_balance(self):
         self.app.driver.get("https://4dev.at-profit.com/profile/balance")
+
+    def open_tickets_page(self):
+        self.app.driver.get("https://4dev.at-profit.com/profile/support-history")
