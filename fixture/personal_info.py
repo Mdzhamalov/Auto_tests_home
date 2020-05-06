@@ -6,10 +6,6 @@ class PersonalInformationHelper:
 
     location_to_avatar = "F:/Cactus_Vision/AT_Golden/User_photos/test_6.jpg"
     doc_address = "F:/Cactus_Vision/AT_Golden/User_photos/London.jpg"
-    name = "Patrick"
-    last_name = "Bryant"
-    city = "Los Angeles"
-    address = "2086  East Avenue"
     number_doc = random.randint(1, 1000)
 
     def __init__(self, app):
@@ -22,25 +18,25 @@ class PersonalInformationHelper:
             '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[1]/div/div[1]/label/input')
         avatar.send_keys(self.location_to_avatar)
 
-    def fill_name(self):
+    def fill_name(self, name):
         self.app.driver.find_element_by_xpath("//input[@type='']").clear()
-        self.app.driver.find_element_by_xpath("//input[@type='']").send_keys(self.name)
+        self.app.driver.find_element_by_xpath("//input[@type='']").send_keys(name)
 
-    def fill_last_name(self):
+    def fill_last_name(self, last_name):
         self.app.driver.find_element_by_xpath("(//input[@type=''])[2]").clear()
-        self.app.driver.find_element_by_xpath("(//input[@type=''])[2]").send_keys(self.last_name)
+        self.app.driver.find_element_by_xpath("(//input[@type=''])[2]").send_keys(last_name)
 
-    def choose_city(self):
+    def choose_city(self, city):
         self.app.driver.find_element_by_xpath(
             '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/input').clear()
         self.app.driver.find_element_by_xpath(
-            '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/input').send_keys(self.city)
+            '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/input').send_keys(city)
 
-    def fill_address(self):
+    def fill_address(self, address):
         self.app.driver.find_element_by_xpath(
             '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[3]/div/input').clear()
         self.app.driver.find_element_by_xpath(
-            '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[3]/div/input').send_keys(self.address)
+            '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div[3]/div/input').send_keys(address)
 
     def choose_country(self):
         self.app.driver.find_element_by_xpath(
