@@ -35,9 +35,11 @@ class HelpDesk:
         self.app.driver.find_element_by_css_selector("[placeholder = 'Текст сообщения']").send_keys(message)
         self.app.driver.find_element_by_class_name('send-message-icon').click()
 
-    def choose_ticket_to_archive(self):
-        self.app.driver.find_element_by_xpath(
-            '//*[@id="app"]/div/div/div/div[2]/div[2]/div/div[2]/div[2]/div[2]/div[1]/div[1]').click()
+    def attach_file(self, location_to_file):
+        self.app.driver.find_element_by_id('fileMessage').send_keys(location_to_file)
+
+    def choose_ticket_to_archive_by_index(self, index):
+        self.app.driver.find_elements_by_css_selector('div.tr-component.support-tr')[index].click()
         self.app.driver.implicitly_wait(2)
         self.app.driver.find_element_by_css_selector('a.button-component.support-button').click()
 
@@ -51,8 +53,4 @@ class HelpDesk:
 
     def get_tickets_list(self):
         self.app.driver.implicitly_wait(5)
-        tickets = []
-        for element in self.app.driver.find_element_by_css_selector("div.td-component support-td col-number circle"):
-            text = element.text
-            tickets.append(text)
-        return tickets
+        self.app.driver.find_elements_by_css_selector("div.tr-component.support-tr")
