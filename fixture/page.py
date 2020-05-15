@@ -25,3 +25,8 @@ class PageHelper:
 
     def open_tickets_page(self):
         self.app.driver.get("https://4dev.at-profit.com/profile/support-history")
+
+    def open_confirmation_key_in_new_tab(self):
+        self.app.driver.execute_script(
+            "window.open('https://4dev.backend.at-profit.com/admin/account/confirmationkey/', 'new window')")
+        self.app.driver.switch_to.window(self.app.driver.window_handles[1])
