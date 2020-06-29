@@ -104,6 +104,7 @@ class WalletHelper:
         self.app.driver.find_element_by_css_selector("[placeholder = 'Код подтверждения']").send_keys(key)
         self.app.driver.find_element_by_xpath(
             '//*[@id="app"]/div/div/div/div[2]/div[2]/div/ul/div[4]/div/div/div/div[4]/button').click()
+        time.sleep(0.5)
 
 
 
